@@ -66,7 +66,7 @@
         break;
 
       default:
-        count = 0;
+        hyphenCount = 0;
         break;
     }
   });
