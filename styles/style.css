@@ -1,0 +1,83 @@
+* { box-sizing: border-box };
+
+.container {
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.thoughts {
+  position: absolute;
+  top: 0;
+  width: 90%;
+  min-height: 110%;
+  padding: 40px 50px;
+  border: 7px solid;
+}
+
+.thought {
+  padding: 20px 0;
+  border-bottom: 1px dotted;
+}
+
+.invisible {
+  display: none;
+}
+
+input[type="text"] {
+  width: 90%;
+  height: 120px;
+  padding: 29px 0 30px 40px;
+  background-color: #111;
+  color: white;
+  font-size: 35px;
+  outline: none;
+  border: none;
+}
+
+.view-button {
+  position: fixed;
+  top: 0;
+  left: 90%;
+  width: 10%;
+  height: 120px;
+  background-color: yellow;
+}
+
+.view-button i {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  -webkit-transform: translateY(-51%);
+  -moz-transform: translateY(-51%);
+  -ms-transform: translateY(-51%);
+  transform: translateY(-51%);
+  font-size: 60px;
+}
+
+.view-button i:hover {
+}
+
+.view-button i:active {
+  font-size: 40px;
+  top: 50%;
+}
+
+::-webkit-input-placeholder {
+  color: #353535;  
+}
+
+::-moz-input-placeholder {
+  color: #353535;  
+}
+
+::-ms-input-placeholder {
+  color: #353535;  
+}
+
+::input-placeholder {
+  color: #353535;  
+}
