@@ -6,15 +6,17 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "helvetica", sans-serif;
 }
 
 .thoughts {
   position: absolute;
   top: 0;
-  width: 90%;
+  width: 88%;
   min-height: 110%;
   padding: 40px 50px;
   border: 7px solid;
+  margin-left: 2%;
 }
 
 .thought {
@@ -35,6 +37,7 @@ input[type="text"] {
   font-size: 35px;
   outline: none;
   border: none;
+  font-family: "helvetica", sans-serif;
 }
 
 .view-button {
@@ -43,7 +46,7 @@ input[type="text"] {
   left: 90%;
   width: 10%;
   height: 120px;
-  background-color: yellow;
+  background-color: #FFDC00;
 }
 
 .view-button i {
